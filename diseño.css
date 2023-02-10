@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgba(154, 225, 243, 0.932);
+}
+
+.logo{
+    float: left;
+    margin-top: -40px;
+    width: 180px;
+
+}
+
+.box{
+    position: absolute;
+    left: 38%;
+    top: 5%;
+   
+}
+input.src{
+    text-align: center;
+    padding: 4px 5px 4px 5px;
+    border-radius: 5px;
+    outline:none;
+    font-size: 15px;
+    border:2px solid rgb(117, 199, 247);
+    background: white url(Album/lupa\ \(1\).png) no-repeat 9px center;
+    width:230px;
+}
+.mm{
+    position: relative;
+    float:left;
+    margin-left: 50%;
+    line-height: 70px;
+}
+ .mm a{
+    background-color: white;
+    border-radius: 20px;
+    display:inline-block;
+    color: blue;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 12px;
+    
+  
+}
+.mm a:hover{
+    background-color: rgb(6, 55, 161);
+    text-decoration: underline;
+    color:white;
+
+}
+
+#Menu{ 
+    margin: auto;
+    margin-top: 100px;
+    border-width:0px 0px 1px 0px;
+    border-color: rgb(14, 24, 168);
+    border-style: solid;
+    background-color: rgba(234, 248, 252, 0.986);
+    width: 50%; 
+}
+#Menu a{
+    display:inline-block;
+    color: rgb(24, 4, 207);
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 13px;
+}
+#Menu a:hover{
+text-decoration: underline;
+}
+
+.volver{
+    position: relative;
+    position: fixed;
+    
+  }
+
+  #contacto{
+    float: left;
+    text-align: center;
+    margin-left: 175px;
+    margin-top: 50px;
+    color: rgb(4, 4, 107);
+    text-decoration: solid;
+  }
+  .formulario{
+    background: #24303c;
+    width: 470px;
+    padding: 30px;
+      margin: auto;
+      margin-top:150px;
+      border-radius: 5px;
+      font-family: "calibri";
+       color: white;
+       box-shadow: 7px 13px 37px #000;
+       position: relative;
+       
+  }
+  .controls{
+    width: 50%;
+    float:right;
+       margin-right: 40px;
+       line-height: px;
+       background: #24303c;
+       padding: 10px;
+       border: 1px solid #1f53c5;
+       border-radius: 2px;
+       margin-bottom: 8px;
+       font-size: 14px;  
+       font-family: 'calibri';
+       color: white;
+    
+ 
+}
+.text{
+    margin-top: -30px;
+    font-size: 15px;
+}
+
+
+
+
+.formulario a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+.formulario .botons{
+    width: 100%;
+    background: #1f53c5;
+    border:none;
+    padding: 12px;
+    color:white;
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.formulario .botons:hover{
+    text-decoration: underline;
+}
+.text{
+    float:left;
+    margin-left: 20px;
+   margin-top: 25px;
+ font-size: 15px;
+}
+  .texto{
+    float:left;
+       margin-left: 20px;
+      margin-top: 20px;
+    font-size: 15px;
+  }
+  .Mensaje{
+    float:left;
+    margin-left: 20px;
+   margin-top: 25px;
+ font-size: 15px;
+  }
+  .tex{
+    float:left;
+    margin-left: 20px;
+   margin-top: 65px;
+ font-size: 15px;
+  }
+
+  footer{
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgba(128, 226, 250, 0.932);
+    margin-top: 50px;
+
+}
+#let{
+    font-size: 18px;
+    color: rgb(70, 70, 197);
+}
+#le{
+    font-size: 18px;
+    color: rgb(70, 70, 197);
+    text-decoration: underline;
+}
+.letr{
+    font-size: 18px;
+    color: rgb(70, 70, 197);
+}
+.tile{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(4, 4, 148);
+    margin-top: 10px;
+  }
+
+  .iconos{
+    float: right;
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+    width: 35px;
+  }

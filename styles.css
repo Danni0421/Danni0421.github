@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+   
+    background-image:url(Album/farmacia2.jpg);
+    background-repeat: no-repeat;
+    background-size:1400px 900px;
+}
+header{
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgba(154, 225, 243, 0.781);
+}
+.logo{
+    float: left;
+    margin-top: -25px;
+    width:20%;
+    
+}
+#menu{
+    position: relative;
+    float:right;
+    margin-right: 40px;
+    line-height: 70px;
+    
+}
+#menu a{
+    background-color: white;
+    border-radius: 20px;
+    display:inline-block;
+    color: blue;
+    text-decoration: none;
+    padding: 10px 13px;
+    line-height: normal;
+    font-size: 13px;
+}
+
+#menu a:hover{
+    background-color: rgb(6, 55, 161);
+    text-decoration: underline;
+    color:white;
+
+}
+
+.formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+      margin: auto;
+      margin-top:20px;
+      border-radius: 5px;
+      font-family: "calibri";
+       color: white;
+       box-shadow: 7px 13px 37px #000;
+   
+   
+   }
+   
+   .formulario h2{
+       
+       font-size: 23px;
+    
+   }
+   
+   .controls{
+       float: left;
+       width: 50%;
+       background: #24303c;
+       padding: 10px;
+       border: 1px solid #1f53c5;
+       border-radius: 2px;
+       margin-bottom: 8px;
+       font-size: 14px;  
+       font-family: 'calibri';
+       color: white;
+    
+   }
+   .control{
+       width: 100%;
+       background: #24303c;
+       padding: 10px;
+       border-radius: 2px;
+       border: 1px solid #1f53c5;
+       margin-bottom: 14px;
+       font-size: 14px;  
+       font-family: 'calibri';
+   }
+   
+   .formulario a:hover{
+       color: white;
+       text-decoration: underline;
+   
+   }
+   .formulario .botons{
+       width: 100%;
+       background: #1f53c5;
+       border:none;
+       padding: 12px;
+       color:white;
+       margin: 15px 0;
+       font-size: 14px;
+       line-height: 30px;
+   }
+   
+   .formulario .botons:hover{
+       text-decoration: underline;
+   }
+   footer{
+    width: 100%;
+    padding: 1px;
+    overflow: hidden;
+    background-color: rgba(128, 226, 250, 0.932);
+    margin-top: 50px;
+   }
+   .tile{
+    text-align: center;
+    font-size: 19px;
+    color: rgb(4, 4, 148);
+    margin-top: 110px;
+  }
